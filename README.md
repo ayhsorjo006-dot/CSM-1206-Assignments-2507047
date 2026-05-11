@@ -1,146 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pran.bd</title>
-    <link rel="stylesheet" href="sh.css">
-    <script src="SHOAIB.js"></script>
+<title>Document</title>
+    <style>
+        table,th,td{
+            border:width 200 px;
+            border-style: solid;
+            border-color: rgb(155, 34, 7);
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td:hover{
+            background-color: rgb(247, 186, 160);
+        }
+        th{
+            color: rgb(132, 6, 16);
+        }
+    </style>
 </head>
+<body><table><tr>
+    
+   <th colspan="2">Activities</th>
+   <th colspan="2">Calender</th>
+   <th rowspan="8">Faculty of Agriculteral<br> Engineering & Technology<br> Bangladesh<br> agricultural University,Mymensingh-2202</th>
+<th colspan="3">Name Of Subject</th><th >Credit</th><th colspan="2">Subjects</th><th colspan="2">Credit</th>
+</tr>
+<tr><td>Description</td><td colspan="3">Level-1 Semerter-2(July-December/2025)</td>
+    <td colspan="3">FET1201 Energy and Mass Balance in Food Processing </td> 
+    <td>2</td><td colspan="1"rowspan="1">1204 Animal Science</td><td colspan="2">1</td>
+</tr>
+    <tr>
+    <td colspan="2">Class Start</td><td colspan="2">01.03.2026</td><td colspan="3">IWM1204 Fluid Mechanics</td>
+    <td>2</td>
+    <td rowspan="2" colspan="2">LAN 1202 Communicative English</td><td rowspan="2">1</td>
+</tr>
+<tr>
+    <td colspan="2">Class Test</td><td colspan="2">07.06.2026-18.06.2026</td><td colspan="3">IWM1204 Fluid Mechanics</td><td>2</td>
+    
+</tr>
+<tr><td colspan="2"> Class Ceases</td><td colspan="2">10.072026</td>
+    <td colspan="3">CSM1209 Vector Analysis And Differential Equation</td><td>3</td>
+    <td colspan="2" rowspan="2">CBOT1201 Crop Physiology and Food Quality</td>
+    <td rowspan="2">2</td>
+</tr>
+<tr>
+    <td colspan="2">Exam Preparatoty Recess</td><td colspan="2">10.7.26-18.07.26</td><td colspan="3">CSM 1205 Computer Programming and Application</td>
+    <td>2</td>
+</tr>
+<tr>
+    <td colspan="2"> Final Exam (Theory & Practical)</td><td colspan="2">19.07.2026-20.08.2026</td>
+    <td colspan="3">CSM 1206 Computer Programming and Application</td>
+    <td>1</td><td colspan="2" rowspan="2">CBOT1202 Crop Physiology and Food quality</td><td rowspan="2">1</td>
+</tr><tr>
+    <td colspan="2">Preparatory and Publication Of</td><td colspan="2">21.08.2026-03.09.2026</td>
+    <td colspan="3">AS 1203 Animal Science</td><td>2</td>
+</tr>
+</table>
+<table><caption style="text-align: center;"><b><mark>CLASS ROUTINE</mark></b>
+<br>for Food Eng<br>Level-1 Semerter-2(July-December/25)</caption>
+<tr><th>Period<br>Day</th>
+    <th>1st period<br>8:00-8:55</th>
+    <th>2nd Period<br>9:00-9:55</th>
+<th>3rd Period<br>10:00-10:55</th>
+<th>4th Period<br>11:00-11:55</th>
+<th>5th Period<br>12:00-12:55</th>
+<th></th>
+<th>6th Period<br>2:30-3:25</th>
+<th>7th Period<br>3:00-4:25</th>
+<th>8th Period<br>4:30-5:25</th>
+</tr>
+<tr>
+<td><b>SUNDAY</b></td>
+<td>AS 1203<br>Animal science</td>
+<td>IWM 1203<br>Fluid Mechanics</td>
+<td>CSM 1203 Vector Analysis And Differential Equation</td>
+<td></td><td></td>
+<td rowspan="5"><b>R<br><br><br>E<br><br><br>C<br><br><br>E<br><br><br>S<br><br><br>S</b></td>
+<td></td>
+<td colspan="2">AS 1204 Animal Science Gr-A <br>LAN1202 Communicative English Gr-B</td>
+</tr>
+<tr>
+    <td><b>MONDAY</b></td>
+    <td>FET1201 Energy and Mass Balance in Food Processing
+    </td>
+    <td>CBOT1201<br>Crop Physiology and Food Qality</td>
+    <td>AS1203<br>Animal Science</td>
 
-<body>
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="pran.jpg" alt="Pran Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li class="dropdown">
-                    <a href="#products">Products</a>
-                    <div class="dropdown-content">
-                        <a href="#juices">Juices</a>
-                        <a href="#snacks">Snacks</a>
-                        <a href="#dairy">Dairy</a>
-                        <a href="#spices">Spices</a>
-                    </div>
-                </li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td colspan="2">IWM1204 Fluide Machanics Gr-A<br>CBOT1201 Crop Physiology and Food Quality</td>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome PRAN</h1>
-            <p>Taste the Goodness</p>
-            <a href="#products" class="btn">Explore Our Products</a>
-        </div>
-    </section>
 
-    <!-- Products Section -->
-    <section id="products" class="products">
-        <h2>Our Products</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="istockphoto-467416670-612x612.jpg"
-                    alt="Juices">
-                <h3>Juicy Bun</h3>
-                <p>Refreshing and healthy fruit juices.</p>
-            </div>
-            <div class="product-card">
-                <img src="ai-generated-snacks-in-a-container-professional-advertising-foodgraphy-photo.jpg"
-                    alt="Snacks">
-                <h3>Snacks</h3>
-                <p>Delicious and crunchy snacks for every occasion.</p>
-            </div>
-            <div class="product-card">
-                <img src=" images.jpeg"
-                    alt="Dairy">
-                <h3>Drinks</h3>
-                <p>Pure and nutritious dairy products.</p>
-            </div>
-            <div class="product-card">
-                <img src="images.webp" 
-                   alt="Spices">
-                <h3>Spices</h3>
-                <p>Authentic spices to enhance your cooking.</p>
-            </div>
-        </div>
-    </section>
-    <!--calculator-->
+</tr>
+<tr><td><b>TUESDAY</b></td>
+    <td>CSM1205 Computer Programming and Mass Balance in Food Processing</td>
+    <td>CBOT1201 Crop Physiology and Food Quality</td>
+    <td>FET1201Energy and Mass Balance in Food Processing</td>
+    <td></td><td></td><td></td>
+    <td colspan="2">CSM1206 Computer Programming and Analysis Gr-A<br>IWM1204 Fluid Mechanics Gr-B</td>
 
-    <div class="container">
-        <section id="calculator" class="section">
-            <h2>Calculate Your Calorie Intake</h2>
-            <form id="calorie-form">
-                <div class="form-group">
-                    <label for="quantity1">Pran Juice (1mL) - 100 calories:</label>
-                    <input type="number" id="quantity1" name="quantity1" min="0" value="0">
-                </div>
-                <div class="form-group">
-                    <label for="quantity2">Pran Chips (1g) - 250 calories:</label>
-                    <input type="number" id="quantity2" name="quantity2" min="0" value="0">
-                </div>
-                <div class="form-group">
-                    <label for="quantity3">Pran Biscuits (1g) - 400 calories:</label>
-                    <input type="number" id="quantity3" name="quantity3" min="0" value="0">
-                </div>
-                <button type="submit">Calculate</button>
-            </form>
-            <p id="totalCalories">Total Calories: 0</p>
-        </section>
-    </div>
+</tr><tr><td><b>WEDDAY</b></td>
+    <td>IWM1203 Fluid Mechanis</td>
+    <td>CSM1203 Vector Analysis and Differential Equation</td>
+    <td></td><td></td><td></td><td></td>
+    <td colspan="2">CBOT1202 Crop Physiology and Food Quality Gr-A<br>AS1204 Animal Science Gr-A</td>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Pran.bd is one of the leading food and beverage companies in Bangladesh. We are committed to providing
-            high-quality, nutritious, and delicious products to our customers. Our mission is to bring the taste of
-            Bangladesh to the world.</p>
-    </section>
+</tr>
+<tr><td><b>TUESDAY</b></td>
+    <td>CSM1203 Vector Analysis and Differential Equation</td>
+<td>CSM1205 Computer Prrogramming and Application</td>
+<td></td><td></td><td></td><td></td>
+<td colspan="2">LAN1202 Communicative English Gr-A <br> CSM1206 Computer Programming and Application Gr-B</td>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <h2> Call for any query</h2>
-        <table class="table">
-            <tr>
-                <th>Office</th>
-                <th>Number</th>
-            </tr>
-            <tr>
-                <td>Bangladesh</td>
-                <td>+586937865</td>
-            </tr>
-            <tr>
-                <td>India</td>
-                <td>04792874</td>
-            </tr>
-            <tr>
-                <td>Singapore</td>
-                <td>911244</td>
-            </tr>         
-        </table>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <a href="https://www.facebook.com/" ><img src="facebook.png" height="50" width="50"></a>
-        <a href="https://www.youtube.com/"><img src="twitter (1).png" height="50" width="50"></a>
-        <a href="https://www.instagram.com/"><img src="instagram-logo.png" height="50" width="50"></a>
-        <p>&copy; 2025 Pran.bd All rights reserved.</p>
-    </footer>
+</tr>
+</table>
 </body>
-
 </html>
